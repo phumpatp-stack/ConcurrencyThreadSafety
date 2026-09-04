@@ -10,7 +10,7 @@ public class RaceDemo {
 
     private static final int ROUNDS = 20;
     private static final int THREADS = 4;
-    private static final int OPS_PER_THREAD = 50000;
+    private static final int OPS_PER_THREAD = 50000; //ยอดเงินทั้งหมด
     private static final int EXPECTED = THREADS * OPS_PER_THREAD;
 
     public static void main(String[] args) throws Exception {
